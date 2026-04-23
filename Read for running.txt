@@ -1,0 +1,25 @@
+First save the files in the same folder
+
+In one terminal run  the commands separately
+
+gcc -Wall -Wextra -g -o server server.c -lpthread -lrt
+
+gcc -Wall -Wextra -g -o client client.c -lpthread -lrt
+
+Then run ./server on another terminal first
+
+Then run ./client on another terminal for the first client say Bob
+
+Then run ./client on another terminal for the next client say Alice
+
+add many clients as of your choice
+
+Start typing messages and Enjoy!!!
+
+check the server commands in server terminal
+
+client commands in client terminal
+
+at last /quit from all the clients
+
+quit from server to disconnect.
